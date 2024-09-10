@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 16px;
+    scroll-behavior:smooth;
+    /* background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%); */
+}
+.body{
+     background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+     
+}
+
+
+.col-md-4{
+    width: 18rem;
+    display:inline;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    transition:0.5s all;
+    margin-bottom:2rem;
+    border-radius: 2rem;
+    height: 22rem;
+  }
+  .col-md-4:hover{
+    transform:scale(0.98);
+    -webkit-box-shadow: 12px 13px 13px -10px rgba(130,130,130,1);
+-moz-box-shadow: 12px 13px 13px -10px rgba(130,130,130,1);
+box-shadow: 12px 13px 13px -10px rgba(130,130,130,1);
+}
+#small:hover{
+  border: 1px solid yellow;
+}
+
+  
+  #d-flex{
+    margin-top: 1rem;
+  }
+  .row{
+    margin-top:1rem;
+    padding: 0.5rem;
+    margin: auto;
+    display: flex;
+    grid-template-columns: auto auto auto;
+    row-gap:0.5rem;
+    column-gap:0.5rem;
+    margin-right: 1rem;
+   
+    
+  }
+#row{
+  margin-top:0rem;
+  border-radius: 2px solid black;
+}
+.booksold{
+    font-weight: bolder;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+/* CSS */
+.navbar {
+  background-color: #429693;
+  overflow: hidden;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}

@@ -1,0 +1,90 @@
+/* Header styles */
+.header {
+   
+    padding: 20px 0;
+    color: white;
+}
+
+/* Navigation bar styles */
+.nav-bar {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.first-nav {
+    border-bottom: 1px solid #555;
+    padding-bottom: 5px;
+}
+
+.logo img {
+    max-height: 50px;
+    max-width: 100px;
+}
+
+/* Form control and search bar styles */
+.form-control {
+    margin-right: 10px;
+    width: 100%;
+}
+
+/* Button styles */
+.btn-outline-success {
+    color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-outline-success:hover {
+    background-color: #1881ea;
+    border-color: #28a745;
+    color: white;
+}
+
+.custom-btn.btn-3,
+.button-21 {
+    color: #fff;
+    cursor: pointer;
+}
+
+.custom-btn.btn-3 {
+    background-color: #007bff;
+}
+
+.button-21 {
+    background-color: #28a745;
+}
+
+/* Navigation link styles */
+.nav-link {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+/* Responsive adjustments */
+
+    /* Responsive adjustments */
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .first-nav {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .col-md-10 {
+        flex-basis: 100%; /* Allow col-md-10 to take full width on smaller screens */
+    }
+
+    .row.align-items-center.justify-content-end {
+        flex-direction: row;
+    }
+
+    .login {
+        margin-top: 0;
+    }
+    
+    .nav-link {
+        margin-top: 10px; /* Add some space between the Welcome message and other elements on small screens */
+    }
+
+}
